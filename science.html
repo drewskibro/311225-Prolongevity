@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Science - ProLongevity | How It Works</title>
+  <title>The Science - ProLongevity | Metabolic Health & Weight Loss</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
@@ -193,7 +193,7 @@
   <nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl shadow-sm border-b border-gray-100 transition-all duration-300">
     <div class="max-w-[1680px] mx-auto px-6 md:px-[60px] h-[90px] flex items-center justify-between">
       <a href="index.html" class="flex items-center gap-5 shrink-0 hover:opacity-80 transition-opacity">
-        <img src="https://c.animaapp.com/mid2jdlgjgsquY/img/prolongevity-logo.png" alt="ProLongevity" class="h-[50px] object-contain" />
+        <img src="https://c.animaapp.com/mkf7fl6oan73Rz/img/prolongevity-logo.png" alt="ProLongevity" class="h-[50px] object-contain" />
       </a>
 
       <nav class="hidden lg:flex items-center gap-12">
@@ -222,7 +222,7 @@
   <div id="mobileMenu" class="fixed top-0 right-0 bottom-0 w-[85%] max-w-[400px] bg-white/95 backdrop-blur-xl shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-out">
     <div class="flex items-center justify-between p-6 border-b border-gray-200">
       <div class="flex items-center gap-3">
-        <img alt="ProLongevity" src="https://c.animaapp.com/mid2jdlgjgsquY/img/prolongevity-logo.png" class="h-10 object-contain" />
+        <img alt="ProLongevity" src="https://c.animaapp.com/mkf7fl6oan73Rz/img/prolongevity-logo.png" class="h-10 object-contain" />
       </div>
       <button id="menuClose" class="flex items-center justify-center w-10 h-10 text-gray-600 hover:bg-purple-50 rounded-full transition-all" style="color: #3a126e;">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -273,8 +273,9 @@
 
     <div class="max-w-[1200px] mx-auto px-6 relative z-10 text-center py-32">
       <div class="inline-block mb-8 animate-fade-in-up delay-100">
-        <div class="section-header" style="--tw-gradient-stops: #1aa192, #1aa192;">
-          <p class="text-sm font-bold tracking-[3px] uppercase" style="color: #1aa192;">THE PROLONGEVITY METHOD</p>
+        <div class="flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 px-5 py-2 rounded-full">
+          <i class="fas fa-flask text-[#1aa192]"></i>
+          <span class="text-white text-sm font-bold tracking-wide uppercase">Scientific Breakthrough</span>
         </div>
       </div>
 
@@ -286,6 +287,13 @@
       <p class="text-slate-300 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed mb-12 font-light animate-fade-in-up delay-300">
         Why understanding your individual metabolism is the only way to keep weight off after stopping GLP-1 injections—and how the ProLongevity method makes it possible.
       </p>
+
+      <div class="animate-fade-in-up delay-400">
+        <a href="#essentials" class="inline-flex items-center gap-3 text-white text-lg font-semibold border-b border-[#1aa192] pb-1 hover:text-[#1aa192] transition-colors">
+          Discover ProLongevity Essentials
+          <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
 
     </div>
   </section>
@@ -351,27 +359,50 @@
           </div>
         </div>
 
-        <!-- Right Column: The Quote -->
+        <!-- Right Column: The Visual Graph -->
         <div class="lg:col-span-5 relative">
-          <div class="absolute -inset-4 bg-gradient-to-br from-prolongevity-purple/10 to-teal-500/10 rounded-[3rem] blur-2xl opacity-60"></div>
-          <div class="relative bg-white rounded-[2.5rem] p-10 md:p-12 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.1)] border border-gray-100 overflow-hidden">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-prolongevity-purple/5 rounded-bl-[100px] -mr-4 -mt-4"></div>
-            <div class="absolute bottom-0 left-0 w-24 h-24 bg-[#1aa192]/5 rounded-tr-[80px] -ml-4 -mb-4"></div>
+          <div class="bg-white rounded-[2.5rem] p-8 shadow-2xl border border-gray-100 relative overflow-hidden">
+            <h3 class="text-gray-900 font-bold text-xl mb-6 text-center">The Metabolic Cliff</h3>
             
-            <div class="relative z-10">
-              <i class="fas fa-quote-left text-4xl text-prolongevity-purple/20 mb-6 block"></i>
-              <blockquote class="text-2xl font-playfair_display leading-relaxed italic text-gray-800 mb-8">
-                "After 35 years prescribing weight loss drugs, I realized we were fighting biology. The solution isn't to suppress your body's signals—it's to understand and work with them."
-              </blockquote>
-              
-              <div class="flex items-center gap-5 pt-6 border-t border-gray-100">
-                <div class="w-16 h-16 rounded-full p-1 bg-gradient-to-br from-prolongevity-purple to-[#1aa192]">
-                  <img src="graham-phillips.jpg" alt="Graham Phillips" class="w-full h-full rounded-full object-cover border-2 border-white">
-                </div>
-                <div>
-                  <p class="font-bold text-gray-900 text-lg">Graham Phillips</p>
-                  <p class="text-prolongevity-purple font-medium text-sm uppercase tracking-wide">FRPharmS, Founder</p>
-                </div>
+            <div class="relative h-[300px] w-full">
+              <!-- Graph Lines -->
+              <svg class="absolute inset-0 w-full h-full overflow-visible" viewBox="0 0 400 300" preserveAspectRatio="none">
+                <!-- Grid -->
+                <line x1="0" y1="280" x2="400" y2="280" stroke="#e5e7eb" stroke-width="1" />
+                <line x1="0" y1="0" x2="0" y2="280" stroke="#e5e7eb" stroke-width="1" />
+                
+                <!-- Drug Curve (Red) -->
+                <path d="M0,50 Q100,250 200,250 T400,50" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="8,4" class="drop-shadow-md">
+                  <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="3s" fill="freeze" />
+                </path>
+                
+                <!-- ProLongevity Curve (Teal) -->
+                <path d="M0,50 Q150,200 400,220" fill="none" stroke="#1aa192" stroke-width="4" class="drop-shadow-lg">
+                  <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="3s" fill="freeze" />
+                </path>
+
+                <!-- Points -->
+                <circle cx="0" cy="50" r="6" fill="#374151" />
+                <circle cx="200" cy="250" r="6" fill="#ef4444" />
+                <circle cx="400" cy="50" r="6" fill="#ef4444" />
+                <circle cx="400" cy="220" r="8" fill="#1aa192" stroke="white" stroke-width="2" />
+              </svg>
+
+              <!-- Labels -->
+              <div class="absolute top-[40px] left-[-10px] text-xs font-bold text-gray-600">Start</div>
+              <div class="absolute bottom-[30px] left-[45%] text-xs font-bold text-red-500 bg-white px-2 py-1 rounded shadow-sm border border-red-100">Stop Drug</div>
+              <div class="absolute top-[40px] right-[-10px] text-xs font-bold text-red-500">Rebound</div>
+              <div class="absolute bottom-[60px] right-[-10px] text-xs font-bold text-[#1aa192] bg-white px-2 py-1 rounded shadow-sm border border-teal-100">Success</div>
+            </div>
+
+            <div class="flex justify-center gap-6 mt-4 text-sm font-medium">
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                <span class="text-slate-600">Standard Approach</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 rounded-full bg-[#1aa192]"></div>
+                <span class="text-slate-600">ProLongevity</span>
               </div>
             </div>
           </div>
@@ -410,14 +441,14 @@
         
         <div class="relative">
           <div class="absolute -inset-4 bg-gradient-to-r from-[#1aa192]/20 to-purple-500/20 rounded-[2.5rem] blur-2xl opacity-50"></div>
-          <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-[2rem] shadow-2xl p-8 relative overflow-hidden">
+          <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[2rem] shadow-2xl p-8 relative overflow-hidden">
             <div class="flex items-center justify-between mb-8">
               <h4 class="font-bold text-white text-lg">Glucose Response: Same Meal</h4>
-              <span class="bg-white/10 text-white/80 text-xs font-bold px-3 py-1 rounded-full border border-white/10">LIVE DATA</span>
+              <span class="bg-[#1aa192]/20 text-[#1aa192] text-xs font-bold px-3 py-1 rounded-full border border-[#1aa192]/30 animate-pulse">LIVE DATA</span>
             </div>
             
             <!-- Enhanced Graph Visualization -->
-            <div class="relative h-80 w-full bg-black/20 rounded-xl border border-white/5 p-6 mb-6">
+            <div class="relative h-80 w-full bg-black/40 rounded-xl border border-white/5 p-6 mb-6 backdrop-blur-sm">
               <!-- Grid lines -->
               <div class="absolute inset-0 flex flex-col justify-between p-6 opacity-10 pointer-events-none">
                 <div class="w-full h-px bg-white"></div>
@@ -432,10 +463,10 @@
                 <defs>
                   <linearGradient id="gradA" x1="0%" y1="0%" x2="100%" y2="0%">
                     <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.5" />
+                    <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.1" />
                   </linearGradient>
                 </defs>
-                <path d="M0,220 Q50,220 100,50 Q150,20 200,150 T400,200" fill="none" stroke="url(#gradA)" stroke-width="4" stroke-linecap="round" class="drop-shadow-[0_0_10px_rgba(239,68,68,0.5)]" />
+                <path d="M0,220 Q50,220 100,50 Q150,20 200,150 T400,200" fill="none" stroke="url(#gradA)" stroke-width="4" stroke-linecap="round" class="drop-shadow-[0_0_15px_rgba(239,68,68,0.6)]" />
                 <circle cx="120" cy="35" r="6" fill="#ef4444" class="animate-pulse" />
                 
                 <!-- Tooltip A -->
@@ -448,7 +479,7 @@
               
               <!-- Person B Line (Stable) -->
               <svg class="absolute inset-0 w-full h-full overflow-visible p-6" preserveAspectRatio="none">
-                <path d="M0,220 Q100,210 200,200 T400,210" fill="none" stroke="#1aa192" stroke-width="4" stroke-linecap="round" class="drop-shadow-[0_0_10px_rgba(26,161,146,0.5)]" />
+                <path d="M0,220 Q100,210 200,200 T400,210" fill="none" stroke="#1aa192" stroke-width="4" stroke-linecap="round" class="drop-shadow-[0_0_15px_rgba(26,161,146,0.6)]" />
                 <circle cx="200" cy="205" r="6" fill="#1aa192" />
                 
                 <!-- Tooltip B -->
@@ -472,8 +503,12 @@
   </section>
 
   <!-- Section 3: The ProLongevity Method -->
-  <section class="py-32 bg-white">
-    <div class="max-w-[1000px] mx-auto px-6">
+  <section class="py-32 bg-gradient-to-b from-white via-purple-50/30 to-white relative overflow-hidden">
+    <!-- Background Elements -->
+    <div class="absolute top-1/4 left-0 w-[800px] h-[800px] bg-purple-100/40 rounded-full blur-[120px] pointer-events-none -translate-x-1/2"></div>
+    <div class="absolute bottom-1/4 right-0 w-[800px] h-[800px] bg-teal-50/40 rounded-full blur-[120px] pointer-events-none translate-x-1/2"></div>
+
+    <div class="max-w-[1000px] mx-auto px-6 relative z-10">
       <div class="text-center mb-20">
         <div class="inline-block mb-6">
           <div class="section-header" style="--tw-gradient-stops: #3a126e, #3a126e;">
@@ -536,41 +571,144 @@
     </div>
   </section>
 
-  <!-- Section 4: Graham's Perspective -->
-  <section class="py-32 bg-prolongevity-dark text-white relative overflow-hidden">
-    <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-purple-600/20 rounded-full blur-[150px] pointer-events-none"></div>
-    <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-teal-500/10 rounded-full blur-[100px] pointer-events-none"></div>
-    <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.08%22/%3E%3C/svg%3E');"></div>
+  <!-- NEW SECTION: ProLongevity Essentials Group Offer -->
+  <section id="essentials" class="py-32 bg-gradient-to-br from-prolongevity-dark via-[#2a0d52] to-prolongevity-dark relative overflow-hidden">
+    <!-- Background Elements -->
+    <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-purple-600/10 rounded-full blur-[150px] pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-[#1aa192]/10 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="absolute inset-0 opacity-[0.05] pointer-events-none" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.08%22/%3E%3C/svg%3E');"></div>
 
-    <div class="max-w-[1000px] mx-auto px-6 relative z-10">
-      <div class="text-center mb-16">
+    <div class="max-w-[1200px] mx-auto px-6 relative z-10">
+      
+      <div class="text-center mb-20">
         <div class="inline-block mb-6">
           <div class="section-header" style="--tw-gradient-stops: #1aa192, #1aa192;">
-            <p class="font-bold tracking-[3px] text-sm uppercase text-[#1aa192]">35 YEARS OF INSIGHT</p>
+            <p class="font-bold tracking-[3px] text-sm uppercase text-[#1aa192]">SCIENCE IN ACTION</p>
           </div>
         </div>
-        <h2 class="text-4xl md:text-6xl font-bold font-playfair_display mb-8 leading-tight">What Prescribing Weight Loss Drugs Taught Graham</h2>
+        <h2 class="text-white text-5xl md:text-7xl font-bold font-playfair_display mb-6 leading-tight">
+          Applying the Science: <br/>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#1aa192] to-teal-200">ProLongevity Essentials</span>
+        </h2>
+        <p class="text-slate-300 text-xl max-w-3xl mx-auto leading-relaxed font-light">
+          We've distilled 35 years of clinical expertise into <strong>ProLongevity Essentials</strong>—a focused, 12-week group protocol designed to fix your metabolism and prevent rebound.
+        </p>
       </div>
 
-      <div class="prose prose-lg prose-invert mx-auto">
-        <p class="text-slate-300 text-xl leading-relaxed mb-8 font-light">
-          After three decades prescribing every weight loss medication available—from orlistat to the latest GLP-1 agonists—Graham noticed a disturbing pattern. The drugs worked. Then they stopped working.
-        </p>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
-        <div class="bg-white/5 backdrop-blur-md border-l-4 border-[#1aa192] p-8 md:p-10 rounded-r-2xl my-12 shadow-2xl">
-          <p class="text-2xl md:text-3xl font-playfair_display italic text-white leading-relaxed">
-            "We were treating symptoms, not causes. Suppressing appetite doesn't fix insulin resistance. Cutting calories doesn't reverse metabolic adaptation. I realized we needed to understand each person's individual metabolism—not prescribe the same drug to everyone."
-          </p>
+        <!-- Left: The Protocol Breakdown -->
+        <div class="space-y-8">
+          <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 group">
+            <div class="flex items-start gap-6">
+              <div class="w-14 h-14 rounded-xl bg-[#1aa192]/20 flex items-center justify-center shrink-0 text-[#1aa192] text-2xl border border-[#1aa192]/30 group-hover:scale-110 transition-transform">
+                <i class="fas fa-users-viewfinder"></i>
+              </div>
+              <div>
+                <h3 class="text-white text-2xl font-bold mb-3 font-playfair_display">Small Group Accountability</h3>
+                <p class="text-slate-200 text-lg leading-relaxed">
+                  Research shows you are 95% more likely to achieve your goals with regular accountability appointments. Our cohorts are capped at 10 members to ensure you get that personalized attention.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 group">
+            <div class="flex items-start gap-6">
+              <div class="w-14 h-14 rounded-xl bg-purple-500/20 flex items-center justify-center shrink-0 text-purple-400 text-2xl border border-purple-500/30 group-hover:scale-110 transition-transform">
+                <i class="fas fa-clipboard-check"></i>
+              </div>
+              <div>
+                <h3 class="text-white text-2xl font-bold mb-3 font-playfair_display">Structured Metabolic Protocol</h3>
+                <p class="text-slate-200 text-lg leading-relaxed">
+                  Week-by-week curriculum based on clinical data. You'll learn exactly how to stabilize glucose, reduce insulin resistance, and switch your body into fat-burning mode without drugs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 group">
+            <div class="flex items-start gap-6">
+              <div class="w-14 h-14 rounded-xl bg-blue-500/20 flex items-center justify-center shrink-0 text-blue-400 text-2xl border border-blue-500/30 group-hover:scale-110 transition-transform">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <div>
+                <h3 class="text-white text-2xl font-bold mb-3 font-playfair_display">Pharmacist-Led Guidance</h3>
+                <p class="text-slate-200 text-lg leading-relaxed">
+                  Direct access to Graham Phillips. Unlike generic apps, you get advice from a clinical expert who understands medication interactions, side effects, and complex metabolic history.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <p class="text-slate-300 text-xl leading-relaxed font-light">
-          Graham studied the emerging research on metabolic adaptation, insulin sensitivity, and personalized glucose responses. He discovered that successful, lasting weight loss required understanding the unique way each person's body processes food. That insight became the ProLongevity method.
-        </p>
+        <!-- Right: The Offer Card -->
+        <div class="relative">
+          <div class="absolute -inset-1 bg-gradient-to-r from-[#1aa192] to-purple-600 rounded-[2.5rem] blur opacity-40"></div>
+          <div class="relative bg-prolongevity-dark/90 backdrop-blur-xl border border-white/20 rounded-[2.5rem] p-10 overflow-hidden shadow-2xl">
+            
+            <!-- Badge -->
+            <div class="absolute top-0 right-0 bg-[#1aa192] text-white text-xs font-bold px-6 py-2 rounded-bl-2xl shadow-lg tracking-wide">
+              JANUARY COHORT OPEN
+            </div>
+
+            <div class="text-center mb-10 pt-4">
+              <p class="text-transparent bg-clip-text bg-gradient-to-r from-[#1aa192] to-teal-200 text-sm font-bold uppercase tracking-[0.2em] mb-4">PROLONGEVITY ESSENTIALS</p>
+              <div class="flex items-center justify-center gap-2 mb-2">
+                <span class="text-7xl font-bold text-white font-playfair_display">£99</span>
+                <span class="text-slate-300 text-2xl font-medium self-end mb-3">/mo</span>
+              </div>
+              <p class="text-slate-300 text-base font-medium">for 3 months (£297 total)</p>
+            </div>
+
+            <div class="space-y-5 mb-10 pl-4">
+              <div class="flex items-center gap-4 text-white text-lg">
+                <div class="w-6 h-6 rounded-full bg-[#1aa192] flex items-center justify-center shrink-0">
+                  <i class="fas fa-check text-white text-xs"></i>
+                </div>
+                <span class="font-medium">12 Weekly Live Group Sessions</span>
+              </div>
+              <div class="flex items-center gap-4 text-white text-lg">
+                <div class="w-6 h-6 rounded-full bg-[#1aa192] flex items-center justify-center shrink-0">
+                  <i class="fas fa-check text-white text-xs"></i>
+                </div>
+                <span class="font-medium">Private Cohort Community</span>
+              </div>
+              <div class="flex items-center gap-4 text-white text-lg">
+                <div class="w-6 h-6 rounded-full bg-[#1aa192] flex items-center justify-center shrink-0">
+                  <i class="fas fa-check text-white text-xs"></i>
+                </div>
+                <span class="font-medium">Metabolic Freedom Framework</span>
+              </div>
+              <div class="flex items-center gap-4 text-white text-lg">
+                <div class="w-6 h-6 rounded-full bg-[#1aa192] flex items-center justify-center shrink-0">
+                  <i class="fas fa-check text-white text-xs"></i>
+                </div>
+                <span class="font-medium">Weekly Q&A with Graham</span>
+              </div>
+              <div class="flex items-center gap-4 text-white text-lg">
+                <div class="w-6 h-6 rounded-full bg-[#1aa192] flex items-center justify-center shrink-0">
+                  <i class="fas fa-check text-white text-xs"></i>
+                </div>
+                <span class="font-medium">Lifetime Access to Recordings</span>
+              </div>
+            </div>
+
+            <button class="w-full bg-gradient-to-r from-[#1aa192] to-[#148075] hover:from-[#148075] hover:to-[#0f6058] text-white text-xl font-bold py-5 rounded-xl shadow-lg hover:shadow-glow-teal transition-all transform hover:-translate-y-1 mb-6">
+              Secure Your Spot
+            </button>
+            
+            <p class="text-center text-slate-400 text-sm font-medium">
+              Limited to 10 members per cohort to ensure quality.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Section 5: The Research -->
+  <!-- Section 5: The Evidence (Bento Grid) -->
   <section class="py-32 bg-white">
     <div class="max-w-[1400px] mx-auto px-6">
       <div class="text-center mb-20">
@@ -628,145 +766,6 @@
           <div class="pt-6 border-t border-gray-100">
             <p class="text-xs font-bold text-[#1aa192] uppercase tracking-wider mb-3">The ProLongevity Solution</p>
             <p class="text-slate-800 font-medium leading-relaxed">You learn how YOUR body works. The knowledge is permanent. No more guessing.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section 6: Your Path -->
-  <section class="py-32 bg-gradient-to-br from-slate-50 to-white relative overflow-hidden">
-    <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-purple-100/30 rounded-full blur-[120px] pointer-events-none"></div>
-    <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-teal-50/40 rounded-full blur-[100px] pointer-events-none"></div>
-
-    <div class="max-w-[1200px] mx-auto px-6 relative z-10">
-      <div class="text-center mb-20">
-        <div class="inline-block mb-6">
-          <div class="section-header" style="--tw-gradient-stops: #1aa192, #1aa192;">
-            <p class="font-bold tracking-[3px] text-sm uppercase" style="color: #1aa192;">YOUR PATH FORWARD</p>
-          </div>
-        </div>
-        <h2 class="text-gray-900 text-4xl md:text-6xl font-bold font-playfair_display mb-6">The ProLongevity Cohort</h2>
-        <p class="text-slate-600 text-xl max-w-2xl mx-auto">A focused, 12-week group coaching programme designed specifically to help you break free from the rebound cycle.</p>
-      </div>
-
-      <div class="bg-white rounded-[3rem] p-12 md:p-16 border border-gray-100 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] relative overflow-hidden max-w-[900px] mx-auto">
-        <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-prolongevity-purple via-[#1aa192] to-prolongevity-purple"></div>
-        
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <div class="inline-block bg-[#1aa192]/10 text-[#1aa192] text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wide mb-6">
-              Most Popular Choice
-            </div>
-            <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-playfair_display">Group Coaching</h3>
-            <p class="text-slate-600 text-lg mb-8 leading-relaxed">
-              Perfect for Mounjaro, Wegovy, or Ozempic users who want to prevent rebound and understand their metabolism without expensive 1-on-1 fees.
-            </p>
-            
-            <div class="space-y-4 mb-8">
-              <div class="flex items-center gap-4">
-                <div class="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center shrink-0 text-prolongevity-purple">
-                  <i class="fas fa-users"></i>
-                </div>
-                <span class="text-gray-900 font-medium">Max 10 members per cohort</span>
-              </div>
-              <div class="flex items-center gap-4">
-                <div class="w-10 h-10 rounded-full bg-teal-50 flex items-center justify-center shrink-0 text-[#1aa192]">
-                  <i class="fas fa-video"></i>
-                </div>
-                <span class="text-gray-900 font-medium">12 weekly live sessions with Graham</span>
-              </div>
-              <div class="flex items-center gap-4">
-                <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center shrink-0 text-blue-600">
-                  <i class="fas fa-brain"></i>
-                </div>
-                <span class="text-gray-900 font-medium">Metabolic Freedom Framework</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="bg-slate-50 rounded-[2rem] p-8 border border-slate-100 text-center relative">
-            <div class="absolute -top-4 -right-4 bg-red-500 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg transform rotate-3">
-              LIMITED SPOTS
-            </div>
-            
-            <p class="text-slate-500 text-sm font-semibold uppercase tracking-wider mb-2">Founding Member Price</p>
-            <div class="flex items-center justify-center gap-1 mb-2">
-              <span class="text-6xl font-bold text-gray-900 font-playfair_display">£99</span>
-              <span class="text-slate-500 text-xl font-medium self-end mb-2">/mo</span>
-            </div>
-            <p class="text-slate-400 text-sm mb-8">for 3 months</p>
-            
-            <a href="pricing.html" class="block w-full bg-[#1aa192] hover:bg-[#15857a] text-white text-lg font-bold py-4 rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 mb-4">
-              Secure Your Spot
-            </a>
-            
-            <p class="text-slate-500 text-xs">
-              14-day money-back guarantee
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section 7: The Proof -->
-  <section class="py-32 bg-white">
-    <div class="max-w-[1400px] mx-auto px-6">
-      <div class="text-center mb-20">
-        <div class="inline-block mb-6">
-          <div class="section-header" style="--tw-gradient-stops: #3a126e, #3a126e;">
-            <p class="font-bold tracking-[3px] text-sm uppercase text-prolongevity-purple">REAL RESULTS</p>
-          </div>
-        </div>
-        <h2 class="text-gray-900 text-4xl md:text-6xl font-bold font-playfair_display mb-6">This Isn't Theory. It's Proven.</h2>
-        <p class="text-slate-600 text-xl max-w-3xl mx-auto leading-relaxed">Over 1,000 members have transformed their health through the ProLongevity method. Here's what happens when you fix metabolism instead of suppressing appetite.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bento-card p-10 flex flex-col h-full">
-          <div class="flex gap-1 text-[#1aa192] mb-6">
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-          </div>
-          <p class="text-gray-800 text-lg italic mb-8 leading-relaxed flex-1">"I was trapped on Mounjaro for 18 months. Within 12 weeks of ProLongevity, I understood my triggers, stopped the injections, and kept the weight off. 14 months later, still maintaining."</p>
-          <div class="flex items-center gap-4 pt-6 border-t border-gray-100">
-            <div class="w-12 h-12 rounded-full bg-gray-200 overflow-hidden">
-              <img src="https://c.animaapp.com/mid2jdlgjgsquY/img/robert-m-image_1.png" alt="Robert" class="w-full h-full object-cover">
-            </div>
-            <div>
-              <p class="font-bold text-gray-900">Robert M.</p>
-              <p class="text-sm text-[#1aa192] font-bold">4.5 stone lost</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="bento-card p-10 flex flex-col h-full">
-          <div class="flex gap-1 text-[#1aa192] mb-6">
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-          </div>
-          <p class="text-gray-800 text-lg italic mb-8 leading-relaxed flex-1">"My blood pressure was uncontrolled despite medication. Graham's approach normalized it in 8 weeks. I'm off all medication now."</p>
-          <div class="flex items-center gap-4 pt-6 border-t border-gray-100">
-            <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-prolongevity-purple font-bold text-xl">R</div>
-            <div>
-              <p class="font-bold text-gray-900">Roshni</p>
-              <p class="text-sm text-[#1aa192] font-bold">BP Normalized</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="bento-card p-10 flex flex-col h-full">
-          <div class="flex gap-1 text-[#1aa192] mb-6">
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-          </div>
-          <p class="text-gray-800 text-lg italic mb-8 leading-relaxed flex-1">"As a doctor, I see patients managing diabetes every day. Graham taught my mother—and me—how to prevent it. What medical school never covered, ProLongevity delivered."</p>
-          <div class="flex items-center gap-4 pt-6 border-t border-gray-100">
-            <div class="w-12 h-12 rounded-full bg-gray-200 overflow-hidden">
-              <img src="https://c.animaapp.com/mid2jdlgjgsquY/img/ht_191217_mpm_bhasha_miss_england_800x450.png" alt="Dr Bhasha" class="w-full h-full object-cover">
-            </div>
-            <div>
-              <p class="font-bold text-gray-900">Dr. Bhasha Mukherjee</p>
-              <p class="text-sm text-[#1aa192] font-bold">Miss England 2019</p>
-            </div>
           </div>
         </div>
       </div>
